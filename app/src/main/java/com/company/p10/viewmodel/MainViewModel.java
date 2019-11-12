@@ -72,7 +72,7 @@ public class MainViewModel extends AndroidViewModel {
 
                 @Override
                 public void onFailure(Call<ApiResponse> call, Throwable t) {
-                    Log.e("ABC", "API NETWORK FAILURE");
+                    Log.e("ABC", "API NETWORK FAILURE: " + t.getMessage());
                 }
             });
 

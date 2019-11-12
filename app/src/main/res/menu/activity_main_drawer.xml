@@ -5,13 +5,20 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_database"
+            android:id="@+id/databaseFragment"
             android:icon="@android:drawable/ic_menu_save"
             android:title="Database" />
         <item
-            android:id="@+id/nav_api"
+            android:id="@+id/apiFragment"
             android:icon="@android:drawable/ic_menu_share"
             android:title="Api" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/helpFragment"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="Help" />
     </group>
 
 </menu>

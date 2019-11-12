@@ -3,18 +3,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_database">
+    app:startDestination="@+id/databaseFragment">
 
     <fragment
-        android:id="@+id/nav_api"
+        android:id="@+id/apiFragment"
         android:name="com.company.p10.view.ApiFragment"
         android:label="FROM API"
-        tools:layout="@layout/fragment_api" >
-    </fragment>
+        tools:layout="@layout/fragment_api" />
     <fragment
-        android:id="@+id/nav_database"
+        android:id="@+id/databaseFragment"
         android:name="com.company.p10.view.DatabaseFragment"
         android:label="FROM DATABASE"
-        tools:layout="@layout/fragment_database" >
-    </fragment>
+        tools:layout="@layout/fragment_database" />
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.company.p10.view.HelpFragment"
+        android:label="Help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.company.p10.view.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.company.p10.view.NotificationsFragment"
+        android:label="fragment_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.company.p10.view.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" />
+
 </navigation>

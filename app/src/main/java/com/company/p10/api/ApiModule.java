@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiModule {
     public static Api api = new Retrofit.Builder()
-            .baseUrl("https://raw.githubusercontent.com/gerardfp/P10/master/app/src/main/java/com/company/p9/")
+            .baseUrl("https://raw.githubusercontent.com/gerardfp/P10/master/app/src/main/res/raw/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(Api.class);
